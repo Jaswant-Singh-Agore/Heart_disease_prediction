@@ -296,3 +296,13 @@ figures/
 .DS_Store
 Thumbs.db
 
+__pycache__/
+artifacts/
+*.h5
+*.joblib
+*.csv
+logs/
+venv/
+.env
+.ipynb_checkpoints/
+
