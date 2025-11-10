@@ -250,3 +250,49 @@ heart/share/
 .vscode/
 .idea/
 heart.yml
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment / IDE
+.venv/
+venv/
+env/
+heart/
+.vscode/
+.idea/
+*.env
+
+# Logs
+logs/
+*.log
+
+# Data
+data/
+!data/sample_data.csv   # (optional: keep one small sample)
+artifacts/
+figures/
+
+# Models / checkpoints
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.sav
+*.pt
+*.onnx
+*.npz
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb~
+
+# System files
+.DS_Store
+Thumbs.db
+
